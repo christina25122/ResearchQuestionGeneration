@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    max-width: 100px;
+}
+
+/* Navigation styles */
+aside {
+    width: 200px;
+    float: left;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+aside nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+aside nav ul li a:hover {
+    background-color: #451a1a;
+}
+
+/* Main content styles */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Start button styles */
+#startButton {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+}
+
+
+
